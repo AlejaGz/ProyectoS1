@@ -1,0 +1,44 @@
+h2 {
+    background: none;
+}
+.divformulario {
+    margin: 30px;
+}
+.form {
+    width: fit-content;
+    margin: auto;
+	border-radius: 10px; 
+	padding: 30px 40px 30px 30px;
+    background-color: #141212;
+    border: 1px solid #6865652d;
+    width: 450px;
+}
+.itemForm {
+    padding: 2% 0;
+    width: 100%;
+}
+.itemForm label {
+    display: block;
+    padding: 1% 0;
+}
+.itemForm input, .itemForm textarea {
+    padding: 2%;
+    border: 1px solid #d63e13;
+    border-radius: 5px;
+    width: 100%;
+}
+.btnForm {
+    height: 25px;
+    width: 102%;
+    border-radius: 5px;
+    background-color: #d63e13;
+    cursor: pointer;
+    color: white;
+}
+.btnForm:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 6px rgb(24, 24, 24);
+}
+.itemForm input::placeholder, .itemForm textarea::placeholder {
+    color: rgba(165, 165, 165, 0.705);
+}

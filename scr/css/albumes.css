@@ -1,0 +1,64 @@
+h2 {
+  text-align: center;
+  background: none;
+}
+.album:hover {
+  background-color: rgba(230, 159, 27, 0.322);
+}
+.album {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: rgba(230, 159, 27, 0.322);
+  border-radius: 10px;
+  padding: 4%;
+}
+table, table a, h3 a {
+  color: white;
+  text-decoration: underline;
+}
+table td a:hover{
+  color: #d63e13;
+}
+.album img {
+  width: 14vw;
+  text-align: left;
+}
+.img {
+  width: 150px;
+}
+h3 {
+  padding: 5% 0;
+  
+}
+th, td{
+  padding: 3% 0 0;
+  border-top: 1px solid rgba(173, 100, 58, 0.404);
+  margin: 5%;
+}
+.last {
+  border-bottom: 1px solid rgba(173, 100, 58, 0.404);
+}
+.max {
+  grid-column: 1;
+  width: 100%;
+}
+.albumes{
+  padding: 5% 0;
+  text-align: right;
+  background: none;
+  border: none;
+}
+
+.albumes a {
+  color: white;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(124, 124, 124, 0.158);
+}
+.albumes a:hover {
+  background-color: rgb(70, 64, 64);
+  box-shadow: 1px 1px 3px#0a0a0aa6;
+}
+h3 a:visited {
+  color: #d63e13;
+}

@@ -1,0 +1,57 @@
+h2, h3 {
+  background: none;
+}
+.maincontent {
+  padding-bottom: 5%;
+}
+.album img{
+  width: 70px;
+  border-radius: 3%;
+}
+.h2 {
+  padding: 4px 0;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+.album div{
+  text-align: justify;
+}
+.album {
+  display: flex;
+  align-items: center;
+}
+.album a {
+  color: #d63e13;
+}
+.albumes {
+  background-color: #141212;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #6865652d;
+}
+.div1 {
+  text-decoration: underline;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  
+}
+.album:hover {
+  background-color: rgba(124, 124, 124, 0.158);
+  border-radius: 10px;
+}
+div {
+  display: block;
+  
+}
+.album a:visited {
+  color: #d63e13;
+}
+.albumes img {
+  transition: transform .3s ease-in-out;
+}
+.albumes img:hover {
+  transform: scale(1.5);
+}

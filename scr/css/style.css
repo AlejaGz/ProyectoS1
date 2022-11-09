@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    border-bottom: 2px solid #3f404131;
+    padding-bottom: 3%;
+}
+.divnav { 
+    background-color: black;
+    position: fixed;
+}
+.banner {
+    background-image: url('../../img/portada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -120px;
+    height: 500px;
+}
+body {
+    text-align: justify;
+    background-color: #2b2b2b;
+}
+
+.menu {
+    box-shadow: 0px 10px 15px 0px rgba(15, 14, 14, 0.486);
+    padding: 10px;
+    text-align: center;
+}
+
+.menuContainer {
+    width: 100vw;
+}
+
+.menuItem {
+    display: inline-block;
+}
+h1 {
+    color: #d63e13;
+    text-align: center;
+    text-shadow: 1px 1px 4px#383a3ba6;
+    font-size: 32px;
+    padding: 3% 0;
+}
+
+.menuLink {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    transition: all .2s ease-in-out;
+}
+
+.menuLink:hover {
+    background-color: gray;
+    border-bottom: 3px solid #383838;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.imgInicio {
+    width: 300px;
+}
+.divimg1 {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.main {
+    padding: 4% 15% 40%;
+    box-shadow: 0px 6px 7px 0px rgb(29, 26, 26);
+    background-color: rgba(5, 4, 4, 0.418);
+    color: rgb(255, 255, 255);
+}
+.divmain {
+    padding: 0 10%;
+    background-color: #2b2b2b;
+}
+.main .maincontaint  {
+    color: white;
+    
+}
+
+
+.footer {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: #abb8c3;
+}
+.selected {
+    color: #d63e13;
+    font-weight: bolder;
+}
